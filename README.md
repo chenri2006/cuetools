@@ -42,7 +42,7 @@ If you want to create a standard gnu tar ball, then do
 
 This will generate a file called
 
-cuetools-<version>.tar.gz
+    cuetools-<version>.tar.gz
 
 that you can send to a host where you can simply install with
 

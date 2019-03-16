@@ -2,5 +2,6 @@
 
 bin_PROGRAMS = cuebreakpoints cueconvert cueprint
 bin_SCRIPTS = cuetag.sh
+dist_bin_SCRIPTS = cuetag.sh
 LDADD = ../lib/libcuefile.a
 AM_CPPFLAGS = -I$(srcdir)/../lib

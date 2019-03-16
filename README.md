@@ -21,3 +21,21 @@ Directory layout:
 - `src/` all source files
 - `src/lib/` scanning, parsing, and printing library
 - `src/tools/` cue and toc tools
+
+Install instruction (tested on a centos 7 host):
+
+```
+aclocal
+autoconf 
+automake --add-missing
+autoreconf
+automake --add-missing
+
+./configure
+make
+sudo make install
+```
+
+If you want to create a standard gnu tar ball, then do
+
+    make dist

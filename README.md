@@ -22,7 +22,7 @@ Directory layout:
 - `src/lib/` scanning, parsing, and printing library
 - `src/tools/` cue and toc tools
 
-Install instruction (tested on a centos 7 host):
+Install instructions (tested on centos 6/7 hosts):
 
 ```
 aclocal
@@ -39,3 +39,15 @@ sudo make install
 If you want to create a standard gnu tar ball, then do
 
     make dist
+
+This will generate a file called
+
+cuetools-<version>.tar.gz
+
+that you can send to a host where you can simply install with
+
+```
+./configure
+make
+sudo make install
+```
